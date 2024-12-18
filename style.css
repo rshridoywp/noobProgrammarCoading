@@ -1,0 +1,47 @@
+/* starting part */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    padding: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-image: url(background\ img.jpg);
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header part  */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: rgb(184, 206, 204);
+    text-align: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+a:hover{
+    border: 1px solid rgb(198, 214, 210);
+    border-radius: 2px;
+}
+/* contant part  */
+.contant{
+    text-align: center;
+}
+.contantHeading{
+    font-size: 30px;
+}
+.contantParagraph{
+    font-size: 10px;
+}
+button{
+    background-color: transparent;
+    border: 1px sodil white;
+
+}
